@@ -2,15 +2,14 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   logoStyles: {
-    marginTop: 50,
-    flex: 1,
-    flexDirection: 'row',
+    margin: 10,
     maxHeight: 100,
+    alignItems: 'center',
   },
   qaText: {
     fontSize: 40,
     fontFamily: 'RobotoCondensed-Regular',
-    color: '#555',
+    color: '#fff',
   },
   commuteText: {
     fontSize: 40,

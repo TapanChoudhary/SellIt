@@ -3,17 +3,14 @@ import LoginScreen from './src/screens/login/LoginScreen';
 import {SafeAreaView, StyleSheet} from 'react-native';
 
 const App = () => {
-  return (
-    <SafeAreaView style={styles.appContainer}>
-      <LoginScreen />
-    </SafeAreaView>
-  );
+  return <LoginScreen />;
 };
 
 const styles = StyleSheet.create({
   appContainer: {
-    display: 'flex',
-    alignItems: 'center',
+    backgroundColor: '#fff',
+    // display: 'flex',
+    // alignItems: 'center',
   },
 });
 
