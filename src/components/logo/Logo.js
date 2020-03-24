@@ -1,4 +1,4 @@
-import React, {Component} from './node_modules/react';
+import React, {Component} from 'react';
 import {View, Text, Animated, Easing} from 'react-native';
 import styles from './styles';
 
